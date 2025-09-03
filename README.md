@@ -13,3 +13,22 @@ goal is to develop text extractor tools for common file formats that is compatib
 |eml|[GMime](https://github.com/jstedfast/gmime)|⚠️|LGPL||
 |eml|[mimetic](https://github.com/tat/mimetic)|✅|MIT||
 |eml|[libcmime](https://www.libcmime.org)|✅|MIT||
+|msg|[libpff](https://github.com/libyal/libpff)|⚠️|LGPL||
+
+## remarks
+
+⚠️ conditionally compatible
+
+LGPL 2.1 says
+
+> Provide the object code or source code needed to relink the application with a modified version of the Library, so users can replace the Library in a statically linked or dynamically linked work.”
+
+each repository shall provide the object code (`.a` for macOS and `.lib` for Windows) and build tools (Xcode project for macOS and Visual Studio solution for Windows) for compatibility.
+
+✅ fully compatible
+
+BSD or MIT is permissive. 
+
+🚫 not compatible
+
+GPL is copyleft; the library licensing propagates to the whole program.
