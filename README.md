@@ -8,12 +8,12 @@ goal is to develop text extractor tools for common file formats that is compatib
 |pdf|[Xpdf](https://www.xpdfreader.com)|🚫|GPL||
 |pdf|[poppler](https://poppler.freedesktop.org)|🚫|GPL||
 |pdf|[MuPDF](https://github.com/ArtifexSoftware/mupdf)|🚫|AGPL||
-|pdf|[PoDoFo](https://github.com/podofo/podofo)|⚠️|LGPL||
+|pdf|[PoDoFo](https://github.com/podofo/podofo)|⚠️|LGPL-2||
 |docx|[OPC](https://github.com/freuter/libopc)|✅|BSD|[opc-parser](https://github.com/miyako/opc-parser)|
-|eml|[GMime](https://github.com/jstedfast/gmime)|⚠️|LGPL||
+|eml|[GMime](https://github.com/jstedfast/gmime)|⚠️|LGPL-2.1||
 |eml|[mimetic](https://github.com/tat/mimetic)|✅|MIT||
 |eml|[libcmime](https://www.libcmime.org)|✅|MIT||
-|msg|[libpff](https://github.com/libyal/libpff)|⚠️|LGPL||
+|msg|[libpff](https://github.com/libyal/libpff)|⚠️|LGPL-3.0||
 
 ## remarks
 
