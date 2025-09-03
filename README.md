@@ -4,7 +4,8 @@ goal is to develop a document parser for common file formats that is compatible 
 
 |format|solution|compatibility|licensing|parser|
 |:-:|-|:-:|-|-|
-|pdf|PDFium|✅|Apache 2.0|[pdfium-parser](https://github.com/miyako/pdfium-parser)
-|pdf|Xpdf|🚫|GPL||
-|pdf|poppler|🚫|GPL||
+|pdf|[PDFium](https://github.com/PDFium/PDFium)|✅|BSD|[pdfium-parser](https://github.com/miyako/pdfium-parser)
+|pdf|[Xpdf](https://www.xpdfreader.com)|🚫|GPL||
+|pdf|[poppler](https://poppler.freedesktop.org)|🚫|GPL||
+|pdf|[MuPDF](https://github.com/ArtifexSoftware/mupdf)|🚫|AGPL||
 |pdf|[PoDoFo](https://github.com/podofo/podofo)|✅|LGPL||
