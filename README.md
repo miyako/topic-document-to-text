@@ -32,3 +32,10 @@ BSD or MIT is permissive.
 🚫 not compatible
 
 GPL is copyleft; the library licensing propagates to the whole program.
+
+## next step
+
+once we have a reasonable set of parsers, we could consider using rust-based tools for chunking.
+
+* https://crates.io/crates/langextract-rust
+* https://crates.io/crates/text-splitter
