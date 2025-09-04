@@ -39,3 +39,7 @@ once we have a reasonable set of parsers, we could consider using rust-based too
 
 * https://crates.io/crates/langextract-rust
 * https://crates.io/crates/text-splitter
+
+## final step
+
+once we have a set of parsers and a tool to chunk extracted plain text, we can develop a tool that extracts, chunks, and vectorises text using [4D AIKit](https://github.com/4d/4D-AIKit). the idea is to use the offical component, not develop a custom fork.
