@@ -13,7 +13,7 @@ goal is to develop text extractor tools for common file formats that is compatib
 |eml|[GMime](https://github.com/jstedfast/gmime)|⚠️|LGPL-2.1||
 |eml|[mimetic](https://github.com/tat/mimetic)|✅|MIT||
 |eml|[libcmime](https://www.libcmime.org)|✅|MIT||
-|ost<br />pst|[libpff](https://github.com/libyal/libpff)|⚠️|LGPL-3.0||
+|ost<br />pst|[libpff](https://github.com/libyal/libpff)|⚠️|LGPL-3.0|[pff-parser](https://github.com/miyako/pff-parser)|
 |msg|[libgsf](https://github.com/GNOME/libgsf)|⚠️|LGPL-2.1||
 
 ## remarks
