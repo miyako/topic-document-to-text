@@ -14,6 +14,7 @@ goal is to develop text extractor tools for common file formats that is compatib
 |eml|[mimetic](https://github.com/tat/mimetic)|✅|MIT||
 |eml|[libcmime](https://www.libcmime.org)|✅|MIT||
 |msg|[libpff](https://github.com/libyal/libpff)|⚠️|LGPL-3.0||
+|msg|[libgsf](https://github.com/GNOME/libgsf)|⚠️|LGPL-2.1||
 
 ## remarks
 
