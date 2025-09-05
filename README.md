@@ -9,11 +9,11 @@ goal is to develop text extractor tools for common file formats that is compatib
 |pdf|[poppler](https://poppler.freedesktop.org)|🚫|GPL||
 |pdf|[MuPDF](https://github.com/ArtifexSoftware/mupdf)|🚫|AGPL||
 |pdf|[PoDoFo](https://github.com/podofo/podofo)|⚠️|LGPL-2||
-|docx|[OPC](https://github.com/freuter/libopc)|✅|BSD|[opc-parser](https://github.com/miyako/opc-parser)|
+|docx<br />xlsx<br />pptx|[OPC](https://github.com/freuter/libopc)|✅|BSD|[opc-parser](https://github.com/miyako/opc-parser)|
 |eml|[GMime](https://github.com/jstedfast/gmime)|⚠️|LGPL-2.1||
 |eml|[mimetic](https://github.com/tat/mimetic)|✅|MIT||
 |eml|[libcmime](https://www.libcmime.org)|✅|MIT||
-|msg|[libpff](https://github.com/libyal/libpff)|⚠️|LGPL-3.0||
+|ost<br />pst|[libpff](https://github.com/libyal/libpff)|⚠️|LGPL-3.0||
 |msg|[libgsf](https://github.com/GNOME/libgsf)|⚠️|LGPL-2.1||
 
 ## remarks
