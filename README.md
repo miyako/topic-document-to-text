@@ -2,7 +2,7 @@
 
 goal is to develop text extractor tools for common file formats that is compatible with MIT, BSD or Apache 2.0.
 
-|format|solution|compatibility|licensing|parser|
+|format|solution|compatibility|licensing|implementation|
 |:-:|-|:-:|-|-|
 |pdf|[PDFium](https://github.com/PDFium/PDFium)|✅|[BSD](https://github.com/PDFium/PDFium/blob/master/LICENSE)|[pdfium-parser](https://github.com/miyako/pdfium-parser)
 |pdf|[Xpdf](https://www.xpdfreader.com)|🚫|GPL||
@@ -35,6 +35,11 @@ BSD or MIT is permissive.
 
 GPL is copyleft; the library licensing propagates to the whole program.
 
+### Specification for parser Each parser implementation
+
+* CLI for macOS (arm64, x86_64 universal library) and Windows (x86_64)
+* stdIn/stdOut and unicode file path input output
+ 
 ## next step
 
 once we have a reasonable set of parsers, we could consider using rust-based tools for chunking.
