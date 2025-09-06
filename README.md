@@ -15,6 +15,7 @@ goal is to develop text extractor tools for common file formats that is compatib
 |eml|[libcmime](https://www.libcmime.org)|✅|MIT||
 |ost<br />pst|[libpff](https://github.com/libyal/libpff)|⚠️|LGPL-3.0|[pff-parser](https://github.com/miyako/pff-parser)|
 |msg|[libgsf](https://github.com/GNOME/libgsf)|⚠️|LGPL-2.1||
+|html|[tidy-html5](https://github.com/htacg/tidy-html5)|✅|BSD||
 
 ## remarks
 
