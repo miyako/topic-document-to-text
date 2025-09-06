@@ -35,7 +35,7 @@ BSD or MIT is permissive.
 
 GPL is copyleft; the library licensing propagates to the whole program.
 
-### Specification for parser Each parser implementation
+### parser implementation
 
 * CLI for macOS (arm64, x86_64 universal library) and Windows (x86_64)
 * stdIn/stdOut and unicode file path input output
