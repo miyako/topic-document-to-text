@@ -37,7 +37,7 @@ GPL is copyleft; the library licensing propagates to the whole program.
 
 ### parser implementation
 
-* CLI for macOS (arm64, x86_64 universal library) and Windows (x86_64)
+* CLI for macOS (`arm64` `x86_64` universal library) and Windows (`x86_64`)
 * supoort both `stdIn`/`stdOut` and input/output file
 * support unicode file path
 * structured data in JSON
