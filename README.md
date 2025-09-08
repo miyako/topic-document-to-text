@@ -9,11 +9,11 @@ goal is to develop text extractor tools for common file formats that is compatib
 |pdf|[poppler](https://poppler.freedesktop.org)|🚫|GPL||
 |pdf|[MuPDF](https://github.com/ArtifexSoftware/mupdf)|🚫|AGPL||
 |pdf|[PoDoFo](https://github.com/podofo/podofo)|⚠️|[LGPL-2](https://github.com/podofo/podofo/blob/master/COPYING)||
-|docx<br />xlsx<br />pptx|[OPC](https://github.com/freuter/libopc)|✅|[BSD](https://github.com/freuter/libopc/blob/master/LICENSE)|[opc-parser](https://github.com/miyako/opc-parser)|
+|docx,xlsx,pptx|[OPC](https://github.com/freuter/libopc)|✅|[BSD](https://github.com/freuter/libopc/blob/master/LICENSE)|[opc-parser](https://github.com/miyako/opc-parser)|
 |eml|[GMime](https://github.com/jstedfast/gmime)|⚠️|LGPL-2.1||
 |eml|[mimetic](https://github.com/tat/mimetic)|✅|[MIT](https://github.com/tat/mimetic/blob/master/COPYING)||
 |eml|[libcmime](https://www.libcmime.org)|✅|MIT||
-|ost<br />pst|[libpff](https://github.com/libyal/libpff)|⚠️|[LGPL-3.0](https://github.com/libyal/libpff/blob/main/COPYING)|[pff-parser](https://github.com/miyako/pff-parser)|
+|ost,pst,pab|[libpff](https://github.com/libyal/libpff)|⚠️|[LGPL-3.0](https://github.com/libyal/libpff/blob/main/COPYING)|[pff-parser](https://github.com/miyako/pff-parser)|
 |msg|[libgsf](https://github.com/GNOME/libgsf)|⚠️|LGPL-2.1||
 |html|[tidy-html5](https://github.com/htacg/tidy-html5)|✅|[W3C](https://github.com/htacg/tidy-html5/blob/next/README/LICENSE.md)|[tidy-parser](https://github.com/miyako/tidy-parser)|
 |html|[lexbor](https://github.com/lexbor/lexbor)|✅|[Apache 2.0](https://github.com/lexbor/lexbor/blob/master/LICENSE)||
