@@ -1,6 +1,6 @@
 # topic-document-to-text
 
-goal is to develop text extractor tools for common file formats that is compatible with MIT, BSD or Apache 2.0.
+goal is to develop text extractor tools for common file formats that is compatible with permissive BSD licensing.
 
 |format|solution|compatibility|licensing|implementation|
 |:-:|-|:-:|-|-|
