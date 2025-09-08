@@ -15,7 +15,7 @@ goal is to develop text extractor tools for common file formats that is compatib
 |eml|[libcmime](https://www.libcmime.org)|✅|MIT||
 |ost,pst,pab|[libpff](https://github.com/libyal/libpff)|⚠️|[LGPL-3.0](https://github.com/libyal/libpff/blob/main/COPYING)|[pff-parser](https://github.com/miyako/pff-parser)|
 |msg|[libgsf](https://github.com/GNOME/libgsf)|⚠️|LGPL-2.1||
-|msg|[libolecf](https://github.com/libyal/libolecf)|⚠️|[LGPL-3.0](https://github.com/libyal/libolecf/blob/main/COPYING)||
+|msg|[libolecf](https://github.com/libyal/libolecf)|⚠️|[LGPL-3.0](https://github.com/libyal/libolecf/blob/main/COPYING)|[olecf-parser](https://github.com/miyako/olecf-parser)|
 |html|[tidy-html5](https://github.com/htacg/tidy-html5)|✅|[W3C](https://github.com/htacg/tidy-html5/blob/next/README/LICENSE.md)|[tidy-parser](https://github.com/miyako/tidy-parser)|
 |html|[lexbor](https://github.com/lexbor/lexbor)|✅|[Apache 2.0](https://github.com/lexbor/lexbor/blob/master/LICENSE)|[lexbor-parser](https://github.com/miyako/lexbor-parser)|
 |ms-oxrtfcp|[ms-compress](https://github.com/coderforlife/ms-compress)|🚫|[GPL-3](https://github.com/coderforlife/ms-compress/blob/master/gpl.txt)|
