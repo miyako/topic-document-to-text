@@ -21,6 +21,7 @@ goal is to develop text extractor tools for common file formats that is compatib
 |doc|[antiword](https://web.archive.org/web/20221207132720/http://www.winfield.demon.nl/)|🚫|GPL||
 |doc|[librevenge](https://sourceforge.net/p/libwpd/librevenge/ci/master/tree/)|✅|Apache-2.0|
 |doc|[catdoc](http://wagner.pp.ru/~vitus/software/catdoc/)|🚫|GPL||
+|doc|[wvWare](https://wvware.sourceforge.net)|🚫|GPL||
 |rtf|[UnRTF](https://www.gnu.org/software/unrtf/)|🚫|GPL||
 |rtf|[librtf](https://librtf.sourceforge.net/)|⚠️|LGPL-2.1|[rtf-parser](https://github.com/miyako/rtf-parser)
 
