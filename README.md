@@ -20,7 +20,8 @@ goal is to develop text extractor tools for common file formats that is compatib
 |html|[lexbor](https://github.com/lexbor/lexbor)|✅|[Apache 2.0](https://github.com/lexbor/lexbor/blob/master/LICENSE)|[lexbor-parser](https://github.com/miyako/lexbor-parser)|
 |doc|[antiword](https://web.archive.org/web/20221207132720/http://www.winfield.demon.nl/)|🚫|GPL||
 |doc|[librevenge](https://sourceforge.net/p/libwpd/librevenge/ci/master/tree/)|✅|Apache-2.0|
-
+|rtf|[UnRTF](https://www.gnu.org/software/unrtf/)|🚫|GPL||
+|rtf|[librtf](https://librtf.sourceforge.net/)|⚠️|LGPL-2.1||
 ## remarks
 
 ⚠️ conditionally compatible
