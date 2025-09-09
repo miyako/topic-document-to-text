@@ -19,6 +19,7 @@ goal is to develop text extractor tools for common file formats that is compatib
 |html|[tidy-html5](https://github.com/htacg/tidy-html5)|✅|[W3C](https://github.com/htacg/tidy-html5/blob/next/README/LICENSE.md)|[tidy-parser](https://github.com/miyako/tidy-parser)|
 |html|[lexbor](https://github.com/lexbor/lexbor)|✅|[Apache 2.0](https://github.com/lexbor/lexbor/blob/master/LICENSE)|[lexbor-parser](https://github.com/miyako/lexbor-parser)|
 |doc|[antiword](https://web.archive.org/web/20221207132720/http://www.winfield.demon.nl/)|🚫|GPL||
+|doc|[librevenge](https://sourceforge.net/p/libwpd/librevenge/ci/master/tree/)|✅|Apache-2.0|
 
 ## remarks
 
