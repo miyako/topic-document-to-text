@@ -9,7 +9,9 @@ goal is to develop text extractor tools for common file formats that is compatib
 |pdf|[poppler](https://poppler.freedesktop.org)|🚫|GPL||
 |pdf|[MuPDF](https://github.com/ArtifexSoftware/mupdf)|🚫|AGPL||
 |pdf|[PoDoFo](https://github.com/podofo/podofo)|⚠️|[LGPL-2](https://github.com/podofo/podofo/blob/master/COPYING)||
-|docx,xlsx,pptx|[OPC](https://github.com/freuter/libopc)|✅|[BSD](https://github.com/freuter/libopc/blob/master/LICENSE)|[opc-parser](https://github.com/miyako/opc-parser)|
+|docx|[OPC](https://github.com/freuter/libopc)|✅|[BSD](https://github.com/freuter/libopc/blob/master/LICENSE)|[opc-parser](https://github.com/miyako/opc-parser)|
+|xlsx|[OPC](https://github.com/freuter/libopc)|✅|[BSD](https://github.com/freuter/libopc/blob/master/LICENSE)|[opc-parser](https://github.com/miyako/opc-parser)|
+|pptx|[OPC](https://github.com/freuter/libopc)|✅|[BSD](https://github.com/freuter/libopc/blob/master/LICENSE)|[opc-parser](https://github.com/miyako/opc-parser)|
 |eml|[GMime](https://github.com/jstedfast/gmime)|⚠️|LGPL-2.1||
 |eml|[mimetic](https://github.com/tat/mimetic)|✅|[MIT](https://github.com/tat/mimetic/blob/master/COPYING)||
 |eml|[libcmime](https://www.libcmime.org)|✅|MIT||
