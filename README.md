@@ -28,6 +28,7 @@ goal is to develop text extractor tools for common file formats that is compatib
 |doc|[wvWare](https://wvware.sourceforge.net)|🚫|GPL||
 |rtf|[UnRTF](https://www.gnu.org/software/unrtf/)|🚫|GPL||
 |rtf|[librtf](https://librtf.sourceforge.net/)|⚠️|LGPL-2.1|[rtf-parser](https://github.com/miyako/rtf-parser)
+|rtf|platform api|✅️||[rtf-parser](https://github.com/miyako/rtf-parser)
 |rtf|[rtfreader](https://github.com/kuhumcst/rtfreader)|🚫|GPL||
 |ppt|[libolecf](https://github.com/libyal/libolecf)|⚠️|[LGPL-3.0](https://github.com/libyal/libolecf/blob/main/COPYING)|[olecf-parser](https://github.com/miyako/olecf-parser)|
 
