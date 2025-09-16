@@ -23,16 +23,16 @@ goal is to develop text extractor tools for common file formats that is compatib
 |html|[tidy-html5](https://github.com/htacg/tidy-html5)|✅|[W3C](https://github.com/htacg/tidy-html5/blob/next/README/LICENSE.md)|[tidy-parser](https://github.com/miyako/tidy-parser)|
 |html|[lexbor](https://github.com/lexbor/lexbor)|✅|[Apache 2.0](https://github.com/lexbor/lexbor/blob/master/LICENSE)|[lexbor-parser](https://github.com/miyako/lexbor-parser)|
 |doc|[antiword](https://web.archive.org/web/20221207132720/http://www.winfield.demon.nl/)|🚫|GPL||
-|doc|[librevenge](https://sourceforge.net/p/libwpd/librevenge/ci/master/tree/)|✅|Apache-2.0|
+|doc|~~[librevenge](https://sourceforge.net/p/libwpd/librevenge/ci/master/tree/)~~[^librevenge]|✅|Apache-2.0|
 |doc|[catdoc](http://wagner.pp.ru/~vitus/software/catdoc/)|🚫|GPL||
 |doc|[wvWare](https://wvware.sourceforge.net)|🚫|GPL||
 |rtf|[UnRTF](https://www.gnu.org/software/unrtf/)|🚫|GPL||
-|rtf|[librtf](https://librtf.sourceforge.net/)|⚠️|LGPL-2.1|[rtf-parser](https://github.com/miyako/rtf-parser)
+|rtf|~~[librtf](https://librtf.sourceforge.net/)~~[^librtf]|⚠️|LGPL-2.1|[rtf-parser](https://github.com/miyako/rtf-parser)
 |rtf|platform api|✅️||[rtf-parser](https://github.com/miyako/rtf-parser)
 |rtf|[rtfreader](https://github.com/kuhumcst/rtfreader)|🚫|GPL||
 |ppt|[libolecf](https://github.com/libyal/libolecf)|⚠️|[LGPL-3.0](https://github.com/libyal/libolecf/blob/main/COPYING)|[olecf-parser](https://github.com/miyako/olecf-parser)|
 
-## remarks
+## compatibility
 
 ⚠️ conditionally compatible
 
@@ -67,3 +67,6 @@ once we have a reasonable set of parsers, we could consider using rust-based too
 ## final step
 
 once we have a set of parsers and a tool to chunk extracted plain text, we can develop a tool that extracts, chunks, and vectorises text using [4D AIKit](https://github.com/4d/4D-AIKit). the idea is to use the offical component, not develop a custom fork.
+
+[^librevenge]: `librevenge` is a CFBF parse but there are no known `.doc` implementations (only `libwps` for Microsoft Works.
+[^librtf]: even with UTF-8 and surrogate pair patches, `librtf` is fundamentatlly flawed and not reliable for processing `.rtf` especially Microsoft Outlook messages. the parser implementation now uses platform APIs (`NSAttributedString` and `Riched20.dll`).
