@@ -68,5 +68,5 @@ once we have a reasonable set of parsers, we could consider using rust-based too
 
 once we have a set of parsers and a tool to chunk extracted plain text, we can develop a tool that extracts, chunks, and vectorises text using [4D AIKit](https://github.com/4d/4D-AIKit). the idea is to use the offical component, not develop a custom fork.
 
-[^librevenge]: `librevenge` is a CFBF parse but there are no known `.doc` implementations (only `libwps` for Microsoft Works.
+[^librevenge]: `librevenge` is a CFBF parser library. reportedly the `libmwaw` filter supports MacWrite, AppleWorks, etc. the`libwps` filter supports Microsoft Works. there are no known filters for Microsoft Word (`.doc`) documents.
 [^librtf]: even with UTF-8 and surrogate pair patches, `librtf` is fundamentatlly flawed and not reliable for processing `.rtf` especially Microsoft Outlook messages. the parser implementation now uses platform APIs (`NSAttributedString` and `Riched20.dll`).
