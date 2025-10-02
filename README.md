@@ -61,7 +61,7 @@ GPL is copyleft; the library licensing propagates to the whole program.
 
 once we have a reasonable set of parsers, we could consider using rust-based tools for chunking.
 
-* https://crates.io/crates/langextract-rust
+* ~~https://crates.io/crates/langextract-rust~~ [^lx-rs]
 * https://crates.io/crates/text-splitter
 
 ## final step
@@ -70,3 +70,4 @@ once we have a set of parsers and a tool to chunk extracted plain text, we can d
 
 [^librevenge]: `librevenge` is a CFBF parser library. reportedly the `libmwaw` filter supports MacWrite, AppleWorks, etc. the`libwps` filter supports Microsoft Works. there are no known filters for Microsoft Word (`.doc`) documents.
 [^librtf]: even with UTF-8 and surrogate pair patches, `librtf` is fundamentatlly flawed and not reliable for processing `.rtf` especially Microsoft Outlook messages. the parser implementation now uses platform APIs (`NSAttributedString` and `Riched20.dll`).
+[^lx-rs]: this CLI utility internally uses `semchunk-rs` to chunk text before extrating meaningful information thanks to AI. it is not designed for chunking only.
